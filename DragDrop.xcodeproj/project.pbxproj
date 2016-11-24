@@ -284,7 +284,7 @@
 				TargetAttributes = {
 					D79335001DDDE20C00DDCEAE = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = KZPGL4P443;
+						DevelopmentTeam = 8FK5W834JB;
 						ProvisioningStyle = Automatic;
 					};
 					D79335191DDDE20D00DDCEAE = {
@@ -630,11 +630,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = KZPGL4P443;
+				DEVELOPMENT_TEAM = 8FK5W834JB;
 				INFOPLIST_FILE = DragDrop/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wts.TestFramework;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kalpesh.DragDrop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -645,11 +645,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = KZPGL4P443;
+				DEVELOPMENT_TEAM = 8FK5W834JB;
 				INFOPLIST_FILE = DragDrop/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wts.TestFramework;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kalpesh.DragDrop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

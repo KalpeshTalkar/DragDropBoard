@@ -2,7 +2,7 @@
 //  CustomDragRenderDelegate.h
 //  DragDrop
 //
-//  Created by WTS DEV on 22/11/16.
+//  Created by Kalpesh Talkar on 22/11/16.
 //  Copyright © 2016 Kalpesh. All rights reserved.
 //
 
