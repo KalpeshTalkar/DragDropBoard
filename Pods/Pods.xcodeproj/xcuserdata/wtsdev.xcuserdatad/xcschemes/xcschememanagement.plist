@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>BetweenKit-BetweenKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>BetweenKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-DragDrop.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-DragDropTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-DragDropUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>1602D36D40C33C7E43716A4786C85F1F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4F444B81BD0F23DF8DD4E73F79066040</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>55884C81F05F691680B4DAA2D3EF2C75</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AF14E67C22137F3C648BC7EB1F05A0BD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F07C66BC1D4BB49BCD471334F312BA5A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

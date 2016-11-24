@@ -1,0 +1,753 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18871AC60B1799B0AB836BE4 /* libPods-DragDropUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F073D98AB154D826A989585F /* libPods-DragDropUITests.a */; };
+		7C4E8B3975F56FD90C4C8FE0 /* libPods-DragDrop.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 034D6C0DE59666C8BA0DC75E /* libPods-DragDrop.a */; };
+		D76722681DE44D7D007C8CE5 /* CustomDragRenderDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D76722671DE44D7D007C8CE5 /* CustomDragRenderDelegate.m */; };
+		D76722711DE5A1F2007C8CE5 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D767226F1DE5A1F2007C8CE5 /* TableViewCell.m */; };
+		D76722721DE5A1F2007C8CE5 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D76722701DE5A1F2007C8CE5 /* TableViewCell.xib */; };
+		D79335061DDDE20C00DDCEAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D79335051DDDE20C00DDCEAE /* main.m */; };
+		D79335091DDDE20C00DDCEAE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D79335081DDDE20C00DDCEAE /* AppDelegate.m */; };
+		D793350C1DDDE20C00DDCEAE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D793350B1DDDE20C00DDCEAE /* ViewController.m */; };
+		D793350F1DDDE20C00DDCEAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D793350D1DDDE20C00DDCEAE /* Main.storyboard */; };
+		D79335111DDDE20C00DDCEAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D79335101DDDE20C00DDCEAE /* Assets.xcassets */; };
+		D79335141DDDE20C00DDCEAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D79335121DDDE20C00DDCEAE /* LaunchScreen.storyboard */; };
+		D793351F1DDDE20D00DDCEAE /* DragDropTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D793351E1DDDE20D00DDCEAE /* DragDropTests.m */; };
+		D793352A1DDDE20D00DDCEAE /* DragDropUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D79335291DDDE20D00DDCEAE /* DragDropUITests.m */; };
+		F21211EBDD8FA2490412D1A1 /* libPods-DragDropTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B259C6B37B0D328A3B1BED52 /* libPods-DragDropTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D793351B1DDDE20D00DDCEAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D79334F91DDDE20C00DDCEAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D79335001DDDE20C00DDCEAE;
+			remoteInfo = DragDrop;
+		};
+		D79335261DDDE20D00DDCEAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D79334F91DDDE20C00DDCEAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D79335001DDDE20C00DDCEAE;
+			remoteInfo = DragDrop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0259111A519477826190C651 /* Pods-DragDrop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DragDrop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DragDrop/Pods-DragDrop.debug.xcconfig"; sourceTree = "<group>"; };
+		034D6C0DE59666C8BA0DC75E /* libPods-DragDrop.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DragDrop.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2031AC04D70067FB62D39175 /* Pods-DragDropTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DragDropTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DragDropTests/Pods-DragDropTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3D3D97664F707C6271B63BF4 /* Pods-DragDropTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DragDropTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DragDropTests/Pods-DragDropTests.release.xcconfig"; sourceTree = "<group>"; };
+		69058F1C36BC7C3808C472E0 /* Pods-DragDropUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DragDropUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DragDropUITests/Pods-DragDropUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6D84EB76BC71E3D67848C9FB /* Pods-DragDropUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DragDropUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DragDropUITests/Pods-DragDropUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B259C6B37B0D328A3B1BED52 /* libPods-DragDropTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DragDropTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD9035CCB5000B7F9B80E42 /* Pods-DragDrop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DragDrop.release.xcconfig"; path = "Pods/Target Support Files/Pods-DragDrop/Pods-DragDrop.release.xcconfig"; sourceTree = "<group>"; };
+		D76722661DE44D7D007C8CE5 /* CustomDragRenderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomDragRenderDelegate.h; sourceTree = "<group>"; };
+		D76722671DE44D7D007C8CE5 /* CustomDragRenderDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomDragRenderDelegate.m; sourceTree = "<group>"; };
+		D767226E1DE5A1F2007C8CE5 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		D767226F1DE5A1F2007C8CE5 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		D76722701DE5A1F2007C8CE5 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		D79335011DDDE20C00DDCEAE /* DragDrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragDrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D79335051DDDE20C00DDCEAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D79335071DDDE20C00DDCEAE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D79335081DDDE20C00DDCEAE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D793350A1DDDE20C00DDCEAE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D793350B1DDDE20C00DDCEAE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D793350E1DDDE20C00DDCEAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D79335101DDDE20C00DDCEAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D79335131DDDE20C00DDCEAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D79335151DDDE20C00DDCEAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D793351A1DDDE20D00DDCEAE /* DragDropTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragDropTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D793351E1DDDE20D00DDCEAE /* DragDropTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DragDropTests.m; sourceTree = "<group>"; };
+		D79335201DDDE20D00DDCEAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D79335251DDDE20D00DDCEAE /* DragDropUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragDropUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D79335291DDDE20D00DDCEAE /* DragDropUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DragDropUITests.m; sourceTree = "<group>"; };
+		D793352B1DDDE20D00DDCEAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F073D98AB154D826A989585F /* libPods-DragDropUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DragDropUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D79334FE1DDDE20C00DDCEAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C4E8B3975F56FD90C4C8FE0 /* libPods-DragDrop.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D79335171DDDE20D00DDCEAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F21211EBDD8FA2490412D1A1 /* libPods-DragDropTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D79335221DDDE20D00DDCEAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18871AC60B1799B0AB836BE4 /* libPods-DragDropUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		907FE0510D46044AA482588D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0259111A519477826190C651 /* Pods-DragDrop.debug.xcconfig */,
+				CAD9035CCB5000B7F9B80E42 /* Pods-DragDrop.release.xcconfig */,
+				2031AC04D70067FB62D39175 /* Pods-DragDropTests.debug.xcconfig */,
+				3D3D97664F707C6271B63BF4 /* Pods-DragDropTests.release.xcconfig */,
+				6D84EB76BC71E3D67848C9FB /* Pods-DragDropUITests.debug.xcconfig */,
+				69058F1C36BC7C3808C472E0 /* Pods-DragDropUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D76722691DE44E1E007C8CE5 /* Drag Callbacks */ = {
+			isa = PBXGroup;
+			children = (
+				D76722661DE44D7D007C8CE5 /* CustomDragRenderDelegate.h */,
+				D76722671DE44D7D007C8CE5 /* CustomDragRenderDelegate.m */,
+			);
+			name = "Drag Callbacks";
+			sourceTree = "<group>";
+		};
+		D767226D1DE5A1CD007C8CE5 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D767226E1DE5A1F2007C8CE5 /* TableViewCell.h */,
+				D767226F1DE5A1F2007C8CE5 /* TableViewCell.m */,
+				D76722701DE5A1F2007C8CE5 /* TableViewCell.xib */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		D79334F81DDDE20C00DDCEAE = {
+			isa = PBXGroup;
+			children = (
+				D79335031DDDE20C00DDCEAE /* DragDrop */,
+				D793351D1DDDE20D00DDCEAE /* DragDropTests */,
+				D79335281DDDE20D00DDCEAE /* DragDropUITests */,
+				D79335021DDDE20C00DDCEAE /* Products */,
+				907FE0510D46044AA482588D /* Pods */,
+				E642489A250327F7D5E68983 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D79335021DDDE20C00DDCEAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D79335011DDDE20C00DDCEAE /* DragDrop.app */,
+				D793351A1DDDE20D00DDCEAE /* DragDropTests.xctest */,
+				D79335251DDDE20D00DDCEAE /* DragDropUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D79335031DDDE20C00DDCEAE /* DragDrop */ = {
+			isa = PBXGroup;
+			children = (
+				D767226D1DE5A1CD007C8CE5 /* Cell */,
+				D76722691DE44E1E007C8CE5 /* Drag Callbacks */,
+				D79335071DDDE20C00DDCEAE /* AppDelegate.h */,
+				D79335081DDDE20C00DDCEAE /* AppDelegate.m */,
+				D793350A1DDDE20C00DDCEAE /* ViewController.h */,
+				D793350B1DDDE20C00DDCEAE /* ViewController.m */,
+				D793350D1DDDE20C00DDCEAE /* Main.storyboard */,
+				D79335101DDDE20C00DDCEAE /* Assets.xcassets */,
+				D79335121DDDE20C00DDCEAE /* LaunchScreen.storyboard */,
+				D79335151DDDE20C00DDCEAE /* Info.plist */,
+				D79335041DDDE20C00DDCEAE /* Supporting Files */,
+			);
+			path = DragDrop;
+			sourceTree = "<group>";
+		};
+		D79335041DDDE20C00DDCEAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D79335051DDDE20C00DDCEAE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D793351D1DDDE20D00DDCEAE /* DragDropTests */ = {
+			isa = PBXGroup;
+			children = (
+				D793351E1DDDE20D00DDCEAE /* DragDropTests.m */,
+				D79335201DDDE20D00DDCEAE /* Info.plist */,
+			);
+			path = DragDropTests;
+			sourceTree = "<group>";
+		};
+		D79335281DDDE20D00DDCEAE /* DragDropUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D79335291DDDE20D00DDCEAE /* DragDropUITests.m */,
+				D793352B1DDDE20D00DDCEAE /* Info.plist */,
+			);
+			path = DragDropUITests;
+			sourceTree = "<group>";
+		};
+		E642489A250327F7D5E68983 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				034D6C0DE59666C8BA0DC75E /* libPods-DragDrop.a */,
+				B259C6B37B0D328A3B1BED52 /* libPods-DragDropTests.a */,
+				F073D98AB154D826A989585F /* libPods-DragDropUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D79335001DDDE20C00DDCEAE /* DragDrop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D793352E1DDDE20D00DDCEAE /* Build configuration list for PBXNativeTarget "DragDrop" */;
+			buildPhases = (
+				CC56AA37E6E12D693C7CD538 /* [CP] Check Pods Manifest.lock */,
+				D79334FD1DDDE20C00DDCEAE /* Sources */,
+				D79334FE1DDDE20C00DDCEAE /* Frameworks */,
+				D79334FF1DDDE20C00DDCEAE /* Resources */,
+				FAFDF2C0230C8B6123EAE352 /* [CP] Embed Pods Frameworks */,
+				112DF0D82987CF1B06405662 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DragDrop;
+			productName = DragDrop;
+			productReference = D79335011DDDE20C00DDCEAE /* DragDrop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D79335191DDDE20D00DDCEAE /* DragDropTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D79335311DDDE20D00DDCEAE /* Build configuration list for PBXNativeTarget "DragDropTests" */;
+			buildPhases = (
+				B3523AE5A1B8D07FF2648A68 /* [CP] Check Pods Manifest.lock */,
+				D79335161DDDE20D00DDCEAE /* Sources */,
+				D79335171DDDE20D00DDCEAE /* Frameworks */,
+				D79335181DDDE20D00DDCEAE /* Resources */,
+				62B53A5569C343E3054EAA23 /* [CP] Embed Pods Frameworks */,
+				D942526AF5E3CC292BA77BFA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D793351C1DDDE20D00DDCEAE /* PBXTargetDependency */,
+			);
+			name = DragDropTests;
+			productName = DragDropTests;
+			productReference = D793351A1DDDE20D00DDCEAE /* DragDropTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D79335241DDDE20D00DDCEAE /* DragDropUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D79335341DDDE20D00DDCEAE /* Build configuration list for PBXNativeTarget "DragDropUITests" */;
+			buildPhases = (
+				7A3B844190B925C8530B6F12 /* [CP] Check Pods Manifest.lock */,
+				D79335211DDDE20D00DDCEAE /* Sources */,
+				D79335221DDDE20D00DDCEAE /* Frameworks */,
+				D79335231DDDE20D00DDCEAE /* Resources */,
+				71C65102D1C09BA1CFC4EBEC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D79335271DDDE20D00DDCEAE /* PBXTargetDependency */,
+			);
+			name = DragDropUITests;
+			productName = DragDropUITests;
+			productReference = D79335251DDDE20D00DDCEAE /* DragDropUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D79334F91DDDE20C00DDCEAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Kalpesh;
+				TargetAttributes = {
+					D79335001DDDE20C00DDCEAE = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = KZPGL4P443;
+						ProvisioningStyle = Automatic;
+					};
+					D79335191DDDE20D00DDCEAE = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = KZPGL4P443;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D79335001DDDE20C00DDCEAE;
+					};
+					D79335241DDDE20D00DDCEAE = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = KZPGL4P443;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D79335001DDDE20C00DDCEAE;
+					};
+				};
+			};
+			buildConfigurationList = D79334FC1DDDE20C00DDCEAE /* Build configuration list for PBXProject "DragDrop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D79334F81DDDE20C00DDCEAE;
+			productRefGroup = D79335021DDDE20C00DDCEAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D79335001DDDE20C00DDCEAE /* DragDrop */,
+				D79335191DDDE20D00DDCEAE /* DragDropTests */,
+				D79335241DDDE20D00DDCEAE /* DragDropUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D79334FF1DDDE20C00DDCEAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D79335141DDDE20C00DDCEAE /* LaunchScreen.storyboard in Resources */,
+				D76722721DE5A1F2007C8CE5 /* TableViewCell.xib in Resources */,
+				D79335111DDDE20C00DDCEAE /* Assets.xcassets in Resources */,
+				D793350F1DDDE20C00DDCEAE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D79335181DDDE20D00DDCEAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D79335231DDDE20D00DDCEAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		112DF0D82987CF1B06405662 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DragDrop/Pods-DragDrop-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62B53A5569C343E3054EAA23 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DragDropTests/Pods-DragDropTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71C65102D1C09BA1CFC4EBEC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DragDropUITests/Pods-DragDropUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A3B844190B925C8530B6F12 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B3523AE5A1B8D07FF2648A68 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CC56AA37E6E12D693C7CD538 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D942526AF5E3CC292BA77BFA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DragDropTests/Pods-DragDropTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAFDF2C0230C8B6123EAE352 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DragDrop/Pods-DragDrop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D79334FD1DDDE20C00DDCEAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D793350C1DDDE20C00DDCEAE /* ViewController.m in Sources */,
+				D79335091DDDE20C00DDCEAE /* AppDelegate.m in Sources */,
+				D76722681DE44D7D007C8CE5 /* CustomDragRenderDelegate.m in Sources */,
+				D79335061DDDE20C00DDCEAE /* main.m in Sources */,
+				D76722711DE5A1F2007C8CE5 /* TableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D79335161DDDE20D00DDCEAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D793351F1DDDE20D00DDCEAE /* DragDropTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D79335211DDDE20D00DDCEAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D793352A1DDDE20D00DDCEAE /* DragDropUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D793351C1DDDE20D00DDCEAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D79335001DDDE20C00DDCEAE /* DragDrop */;
+			targetProxy = D793351B1DDDE20D00DDCEAE /* PBXContainerItemProxy */;
+		};
+		D79335271DDDE20D00DDCEAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D79335001DDDE20C00DDCEAE /* DragDrop */;
+			targetProxy = D79335261DDDE20D00DDCEAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D793350D1DDDE20C00DDCEAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D793350E1DDDE20C00DDCEAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D79335121DDDE20C00DDCEAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D79335131DDDE20C00DDCEAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D793352C1DDDE20D00DDCEAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D793352D1DDDE20D00DDCEAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D793352F1DDDE20D00DDCEAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0259111A519477826190C651 /* Pods-DragDrop.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = KZPGL4P443;
+				INFOPLIST_FILE = DragDrop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wts.TestFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D79335301DDDE20D00DDCEAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAD9035CCB5000B7F9B80E42 /* Pods-DragDrop.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = KZPGL4P443;
+				INFOPLIST_FILE = DragDrop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wts.TestFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D79335321DDDE20D00DDCEAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2031AC04D70067FB62D39175 /* Pods-DragDropTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = KZPGL4P443;
+				INFOPLIST_FILE = DragDropTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kalpesh.DragDropTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DragDrop.app/DragDrop";
+			};
+			name = Debug;
+		};
+		D79335331DDDE20D00DDCEAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D3D97664F707C6271B63BF4 /* Pods-DragDropTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = KZPGL4P443;
+				INFOPLIST_FILE = DragDropTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kalpesh.DragDropTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DragDrop.app/DragDrop";
+			};
+			name = Release;
+		};
+		D79335351DDDE20D00DDCEAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D84EB76BC71E3D67848C9FB /* Pods-DragDropUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = KZPGL4P443;
+				INFOPLIST_FILE = DragDropUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kalpesh.DragDropUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DragDrop;
+			};
+			name = Debug;
+		};
+		D79335361DDDE20D00DDCEAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69058F1C36BC7C3808C472E0 /* Pods-DragDropUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = KZPGL4P443;
+				INFOPLIST_FILE = DragDropUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kalpesh.DragDropUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DragDrop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D79334FC1DDDE20C00DDCEAE /* Build configuration list for PBXProject "DragDrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D793352C1DDDE20D00DDCEAE /* Debug */,
+				D793352D1DDDE20D00DDCEAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D793352E1DDDE20D00DDCEAE /* Build configuration list for PBXNativeTarget "DragDrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D793352F1DDDE20D00DDCEAE /* Debug */,
+				D79335301DDDE20D00DDCEAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D79335311DDDE20D00DDCEAE /* Build configuration list for PBXNativeTarget "DragDropTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D79335321DDDE20D00DDCEAE /* Debug */,
+				D79335331DDDE20D00DDCEAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D79335341DDDE20D00DDCEAE /* Build configuration list for PBXNativeTarget "DragDropUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D79335351DDDE20D00DDCEAE /* Debug */,
+				D79335361DDDE20D00DDCEAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D79334F91DDDE20C00DDCEAE /* Project object */;
+}

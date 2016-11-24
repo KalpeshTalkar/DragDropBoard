@@ -1,0 +1,1 @@
+../../../BetweenKit/Pod/Classes/I3GestureCoordinator.h
